@@ -4,7 +4,7 @@ start xampp(server apache,Mysql)
 
 in terminal / cmd go to application folder and enter following commands:
 
-php migrate/migrate_up.php (will insert the database on the server),
+php migrate/migrate_up.php (will insert the database and user on the server),
 to delete the database type the command :
 php migrate/migrate_down.php
 
