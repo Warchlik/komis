@@ -1,0 +1,21 @@
+hello, to start the application you need to follow this instruction
+
+start xampp(server apache,Mysql)
+
+in terminal / cmd go to application folder and enter following commands:
+
+php migrate/migrate_up.php (will insert the database on the server),
+to delete the database type the command :
+php migrate/migrate_down.php
+
+then fire up the embedded php server using the command:
+
+php -S localhost:8000(or other port) -F index.php
+
+when typed in the terminal will pop up a link to enter the page or in the search engine type :
+localhost:8000 (or any other sweaty you specify)
+
+the application allows you to add, display and edit informations about cars.
+
+
+
